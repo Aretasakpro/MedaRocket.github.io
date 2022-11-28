@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedaRocket</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link type="image/png" sizes="96x96" rel="icon" href="images/index/header/nav-icon.gif">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Lobster&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbarcolor fixed-top" id="mainNavbar">
+
+        <div class="container-fluid d-flex flex-column align-items-center" id="NavbarScroll">
+
+            <!-- Pantallas LG -->
+            <div class="d-none d-lg-block">
+                <a class="navbar-brand d-flex align-items-center animate__animated animate__bounceIn" href="#inicio">
+                    <img src="images/index/header/nav-icon.gif" alt="MedaRocket" class="nav-icon" id="logoImgNavbar">
+                    <h1 class="p-1 gradiente-lg" id="logoNavbar">MedaRocket</h1>
+                </a>
+
+
+            </div>
+
+            <!-- Pantallas SM y MD -->
+            <div class="d-lg-none d-flex flex-column align-items-center">
+                <a class="navbar-brand d-flex justify-content-center animate__animated animate__bounceIn" href="#inicio">
+                    <img src="images/index/header/nav-icon.gif" alt="MedaRocket" width="75" height="75">
+                    <h1 class="p-1 gradiente-sm-md">MedaRocket</h1>
+                </a>
+
+                <a class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <h1 class="text-center text-white">MENU <i class="bi bi-list"></i></h1>
+                </a>
+            </div>
+
+            <!-- MENU ENLACES -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav d-flex align-items-center">
+                    <li class="nav-item px-1">
+                        <a class="nav-link text-center" aria-current="page" href="#"><i class="bi bi-globe-americas"></i> Inicio</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link text-center" href="#"><i class="bi bi-rocket-takeoff"></i> Cohete</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link text-center " href="#"><i class="bi bi-joystick"></i> Piezas</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link text-center" href="#"><i class="bi bi-controller"></i> Juegos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MEDAROCKET - QUÉ ES -->
+
+
+    <div class="container-fluid body-1 ">
+        <div class="row p-2">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-4 d-flex flex-column justify-content-center">
+                <h1 class="que-h1 animate__animated animate__bounceInLeft">El Cohete del futuro...</h1>
+                <p class="text-white fs-4 animate__animated animate__bounceInLeft animate__delay-1s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae id qui facilis, voluptate ad sapiente dolorum vel minima magnam nulla temporibus sit consectetur et perspiciatis exercitationem harum laborum aliquid ea!</p>
+                <p class="text-white fs-4 animate__animated animate__bounceInLeft animate__delay-2s">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam animi inventore harum est, omnis accusamus minima eligendi esse, sed dolores delectus quo illum excepturi sapiente repellendus numquam nisi ab laudantium?</p>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-5 d-flex align-items-center ">
+                <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_pmgmuthj.json"  background="transparent"  speed="1" class="animate__animated animate__bounceInUp  que-cohete" loop  autoplay></lottie-player>
+            </div>
+            
+        </div>
+    </div>
+ 
+    <!-- SEPARADOR -->
+
+    <div class="container-fluid body-2">
+        <div class="row">
+            <div class="col-12">
+               
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@1.5.7/dist/lottie-player.js"></script>
+    <script src="/app.js"></script>
+    
+
+</body>
+
+</html>
